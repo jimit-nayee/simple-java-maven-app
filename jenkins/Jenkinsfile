@@ -1,7 +1,7 @@
 pipeline {
     agent any
-    tools{
-      maven: "Global Maven"
+    tools {
+      maven 'Global Maven'
     }
     stages {
         stage('Build') {
